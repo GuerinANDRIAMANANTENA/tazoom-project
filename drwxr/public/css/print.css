@@ -1,0 +1,42 @@
+
+/* 
+    Created on : 11 févr. 2023, 23:22:17
+    Author     : GUERIN ANDRIAMANANTENA
+    Framework to SINFÔ 1.0 Alpha version
+    Developped by : GUERIN ANDRIAMANANTENA
+    e-Mail      : ghyslainguerin@gmail.com
+    copyright (c) FEV 2023
+    Database Configuration Class (MySqlidb)
+    WordKey     : MVC, DEFINE ROOT_PATH
+    WhatApps : +261(0)34 62 666 33
+*/
+
+@charset "UTF-8";
+
+@page{
+    size: A4;
+    margin: 5px;
+    padding: 5px;
+}
+#print-btn, #cansel-btn{
+    display: none;
+    visibility: none;
+}
+
+.btn-erahassi{
+    /*text-transform: uppercase;*/
+    border: none;
+    transition: all 0.4s;
+
+    color: white;
+    background-color: #00838F;
+    padding: 6px 12px;
+    font-weight:500;
+}
+.btn-erahassi:hover{
+    transition: all 0.4s;
+    background-size: 200% 200%;
+
+    color: white;
+    background-color: #019384;
+}

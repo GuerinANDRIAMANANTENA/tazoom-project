@@ -1,0 +1,62 @@
+
+/* 
+    Created on : 11 févr. 2023, 18:22:17
+    Author     : GUERIN ANDRIAMANANTENA
+    Framework to 910814 1.0 Alpha version
+    Developped by : GUERIN ANDRIAMANANTENA
+    ghyslainguerin@gmail.com
+    copyright (c) FEV 2023
+    Database Configuration Class
+    Contact : +261(0)34 62 666 33
+*/
+
+@charset "UTF-8";
+@CHARSET "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow|Barlow+Semi+Condensed|Poppins|Raleway|Roboto|Roboto+Condensed&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-tazoom{
+    /*text-transform: uppercase;*/
+    border: none;
+    box-shadow: 1px 1px 3px rgb(0 0 0 / 10%);
+    transition: all 0.4s;
+    padding: 8px;
+    
+    background-size: 200% 200%;
+    background-position: 50%;
+    
+    color: #ffffff;
+    background-color: #ED1C32;
+}
+.btn-tazoom:hover{
+    transition: all 0.4s;
+    background-size: 200% 200%;
+    
+    color: #ffffff;
+    background-color: #C40F21;
+}
+.btnlink:hover{
+    background: #F8F9FA;
+}
+
+body .footer {
+	position: fixed;
+	color: #B1B6BA;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	font-size: 13px;
+	text-align: center;
+        
+        background: #FFF;
+/*        border: 1px solid red; */
+        padding: 5px;
+}
+
+.footer a{
+    color: #92BBFA;
+/*    margin-bottom: 8px;*/
+}
